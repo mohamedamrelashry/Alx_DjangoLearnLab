@@ -11,3 +11,4 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('relationship_app.urls')),  # include app urls
 ]
+views.register", "LogoutView.as_view(template_name=", "LoginView.as_view(template_name="]
