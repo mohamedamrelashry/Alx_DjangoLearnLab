@@ -134,3 +134,4 @@ CSP_DEFAULT_SRC = ("'self'",)
 CSP_SCRIPT_SRC = ("'self'", "https://cdnjs.cloudflare.com")  # allow JS only from trusted domains
 CSP_STYLE_SRC = ("'self'", "https://fonts.googleapis.com")
 CSP_IMG_SRC = ("'self'", "data:")
+["SECURE_BROWSER_XSS_FILTER", "X_FRAME_OPTIONS", "SECURE_CONTENT_TYPE_NOSNIFF", "CSRF_COOKIE_SECURE", "SESSION_COOKIE_SECURE"]
