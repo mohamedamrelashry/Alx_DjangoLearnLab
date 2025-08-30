@@ -135,3 +135,9 @@ CSP_SCRIPT_SRC = ("'self'", "https://cdnjs.cloudflare.com")  # allow JS only fro
 CSP_STYLE_SRC = ("'self'", "https://fonts.googleapis.com")
 CSP_IMG_SRC = ("'self'", "data:")
 ["SECURE_BROWSER_XSS_FILTER", "X_FRAME_OPTIONS", "SECURE_CONTENT_TYPE_NOSNIFF", "CSRF_COOKIE_SECURE", "SESSION_COOKIE_SECURE"]
+SECURE_SSL_REDIRECT = True  # Redirect all HTTP -> HTTPS
+
+# HTTP Strict Transport Security (HSTS)
+SECURE_HSTS_SECONDS = 31536000  # 1 year
+SECURE_HSTS_INCLUDE_SUBDOMAINS = True
+SECURE_HSTS_PRELOAD = True
