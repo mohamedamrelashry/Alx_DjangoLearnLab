@@ -5,3 +5,4 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('api.urls')),   # ✅ uses path()
 ]
+: ["BookList.as_view"]
