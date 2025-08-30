@@ -26,6 +26,14 @@ SECRET_KEY = 'django-insecure-s5b2#tx=xep4zz8cw00irep2+)j5sf5_!_w(sizl1jt2dks6pc
 DEBUG = True
 
 ALLOWED_HOSTS = []
+# Clickjacking protection
+X_FRAME_OPTIONS = "DENY"
+
+# Prevent content type sniffing
+SECURE_CONTENT_TYPE_NOSNIFF = True
+
+# Browser XSS filter
+SECURE_BROWSER_XSS_FILTER = True
 
 
 # Application definition
