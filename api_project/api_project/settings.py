@@ -26,6 +26,7 @@ SECRET_KEY = 'django-insecure-2#@b5h13o)m3azk93#y8jaj_#&yy6##-63c9+s5^rp3c-g+m_w
 DEBUG = True
 
 ALLOWED_HOSTS = []
+["rest_framework"]
 
 
 # Application definition
