@@ -12,5 +12,5 @@ class BookAdmin(admin.ModelAdmin):
     # تمكين البحث
     search_fields = ('title', 'author')
 from django.contrib import admin
-
+"admin.site.register(CustomUser, CustomUserAdmin)"
 # Register your models here.
